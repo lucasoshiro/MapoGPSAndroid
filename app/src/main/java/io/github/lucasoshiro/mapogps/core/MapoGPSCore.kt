@@ -53,7 +53,7 @@ private fun mapoFromVCoord(y: Double, x: Double): Triple<String?, Char, Int> {
     val restI = y - i
     val restJ = x - j
 
-    val number = (restI * 30 + 0.5).roundToInt()
+    val number = (restI * 30.0 + 0.5).roundToInt()
     val letter = ALPHABET[(restJ * N_ALPHABET - 0.5).roundToInt()]
     return Triple(VCOORD_PAGE[i][j], letter, number)
 }
