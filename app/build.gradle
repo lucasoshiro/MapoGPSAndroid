@@ -41,6 +41,9 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
+    implementation 'com.google.android.gms:play-services-gcm:17.0.0'
+    implementation 'com.google.android.gms:play-services-location:19.0.1'
+
     implementation 'com.github.BirjuVachhani:locus-android:3.0.1'
     implementation 'org.ejml:ejml-all:0.31'
 }

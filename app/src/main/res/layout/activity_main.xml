@@ -14,7 +14,6 @@
         android:id="@+id/page"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="123"
         android:textAlignment="center"
         android:textSize="96sp"
         android:textStyle="bold" />
@@ -23,7 +22,6 @@
         android:id="@+id/pageCoordinates"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="X 7"
         android:textAlignment="center"
         android:textSize="96sp"
         android:textStyle="bold" />
