@@ -26,6 +26,8 @@ class MainActivity : AppCompatActivity() {
 
         val (page, letter, number) = mapoFromCoord(coord.first, coord.second)
 
+        supportActionBar?.hide()
+
         Log.println(Log.INFO, "mapoGPS", "$coord")
 
         pageTextView.text = page
